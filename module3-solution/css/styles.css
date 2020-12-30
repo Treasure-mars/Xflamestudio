@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#our-menu{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 175%;
+	font-weight: bold;
+}
+.margin{
+	margin-bottom: 30px;
+}
+div>div>h1{
+	margin: 5px 0px 0px 0px;
+	font-size: 125%;
+	padding: 0px;
+	font-weight: bold;
+	text-align: left;
+}
+nav>div>div>h1{
+	float: left;
+	}
+	#nav-list{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: white;
+	}
+	#nav-list a{
+		color: #951C49;
+		text-align: center;
+	}
+	#nav-list a:hover {
+		background-color: #E7E7E7;
+	}
+	#nav-list a span{
+		font-size: 1.8em;
+	}
+	#button-color{
+		background-color: #01F3F1;
+	}
+		#button-color:visited{
+		background-color: green;
+	}
+			#button-color:hover{
+		background-color: white;
+	}
+#padding{
+	padding: 0;
+	margin: 0;
+	margin-left: 40px;
+	box-sizing: content-box;
+}
+div>div>p{
+margin: 25px;
+}
+#sushi, #beef, #chicken{
+	text-align: center;
+}
+#box {
+  padding: 10px;
+  overflow: auto;
+  background-color: #01F0F1;
+}
+#header-nav{
+	background-color: #01F0F1;
+	border: 2px solid black;
+	border-radius: 0;
+	border-left: 0;
+	border-right: 0;
+}
+#align-left h1{
+	margin-left: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.border-beef{
+	border-bottom: 2px solid black;
+	margin-left: 0;
+	padding: 4px 0px 4px 0px;
+}
+.border-chicken{
+	border-bottom: 2px solid black;
+	margin-left: 0;
+	padding: 4px 0px 4px 0px;	
+}
+.border-sushi{
+	padding: 4px 0px 4px 0px;	
+}
+@ media (min-width:768px){
+	.hide{
+		visibility: hidden;
+	}
+}
+@ media (max-width:767px){
+	.unhide{
+		visibility: visible;
+	}
+}
+#header-nav{
+margin: 0;
+padding-bottom: 0!important;
+}
+.nav>li>a{
+	padding: 0;
+	background-color: white;
+}
+.nav>li>a:hover{
+	padding: 0;
+	background-color: #01F0F1;
+}
+#collapsible-nav{
+	padding-left: 0;
+}
