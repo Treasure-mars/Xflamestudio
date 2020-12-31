@@ -26,8 +26,8 @@ var names = [
 for (var i = 0;i < 10;i++) {
 var plc_holder = names [i];
   if (plc_holder[0] == "J") {
-    speakHello.speak(names[i]);
-  } else {
     speakgoodbye.speak(names[i]);
+  } else {
+    speakHello.speak(names[i]);
   }
 }
