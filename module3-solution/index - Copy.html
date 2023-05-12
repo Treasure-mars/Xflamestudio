@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Africa Apes Safaris</title>
+  <title>Tempo Bootstrap Template - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <meta name="author" content="TMars Studio">
@@ -489,6 +489,15 @@
   }
 }
 
+/* Small helper to keep animation in sync */
+/* body:not([data-play]) {
+  *,
+  *:before,
+  *:after {
+    visibility: hidden;
+    animation: none !important;
+  }
+} */
 @media only screen and (max-width: 600px) {
   body {
     animation: none !important;
@@ -503,55 +512,25 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html"><img src="assets/img/apple-touch-icon1.png" width="50px" height="50px" class="img-fluid" style="margin-right: 10px;"/></a>
-      <a class="btn btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" style="background-color: #467758;color:white;" href="#experiences" rel="noopener">Book now</a>
-      <nav id="navbar" class="navbar" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+      <a href="index.html"><img src="assets/img/apple-touch-icon1.png" width="50px" height="50px" style="margin-right: 10px;"/></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a class="btn btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" style="background-color: #467758;color:white;" href="home.html" rel="noopener">Book now</a>
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="about.html">ABOUT US</a></li>
-          <li class="dropdown"><a href="#experiences"><span>EXPERIENCES</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li class="dropdown"><a href="#"><span>SAFARI</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Gorilla trekking</a></li>
-                  <li><a href="#">Chimpanzee trekking</a></li>
-                  <li><a href="#">Game drives</a></li>
-                  <li><a href="#">Night games drives</a></li>
-                  <li><a href="#">Boat safari</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>WELLNESS</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Guided walking safaris</a></li>
-                  <li><a href="#">Nature walks</a></li>
-                  <li><a href="#">Birds watching</a></li>
-                  <li><a href="#">Canopy walk way</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>CULTURE</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Local culture</a></li>
-                  <li><a href="#">Conservation experience</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#tours"><span>TOUR PACKAGES</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="#about">ABOUT US</a></li>
+          <li class="dropdown"><a href="#"><span>TOUR PACKAGES</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="#"><span>Community Tours</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="Kigali City Walk.html">Kigali city walk</a></li>
-                  <li><a href="#">Karisoke research center</a></li>
-                  <li><a href="#">Diana fossy fund</a></li>
-                  <li><a href="#">Traditional culture</a></li>
-                  <li><a href="#">Poetry making</a></li>
-                  <li><a href="#">Ibyi wacu village</a></li>
+                  <li><a href="#">Kigali City Walk</a></li>
+                  <li><a href="#">Volcanoes Community Experience</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Adventure Tours</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Hiking</a></li>
-                  <li><a href="#">Biking</a></li>
-                  <li><a href="#">Cycling</a></li>
+                  <li><a href="#">Hiking And Campsite Tours</a></li>
+                  <li><a href="#">Hiking Kalisimbi Volcano</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Agrotourism Experience</span> <i class="bi bi-chevron-right"></i></a>
@@ -562,26 +541,46 @@
               </li>
               <li class="dropdown"><a href="#"><span>Heritage Tours</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Ethnographic museum</a></li>
-                  <li><a href="#">Kings palace museum</a></li>
-                  <li><a href="#">Environmental museum</a></li>
-                  <li><a href="#">Rwanda arts museum</a></li>
-                  <li><a href="#">Richard kandt museum</a></li>
+                  <li><a href="#">Rwandan Miracle Experience</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>SUGGESTED ITENARIES</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>EXPERIENCES</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Rwanda - 6 days Virunga mountain gorilla spectacular</a></li>
-              <li><a href="#">Rwanda - 7 days Rwanda's rain forests, apes and primates</a></li>
-              <li><a href="#">Rwanda - 8 days Big games and mountain gorillas</a></li>
-              <li><a href="#">Uganda - 9 days Uganda classic - gorilla, chimpanzee and big game</a></li>
-              <li><a href="#">Burundi - 3 days Burundi sightseeing tour</a></li>
-              <li><a href="#">DRC - 7 days Giant gorillas and lava lakes in the eastern congo</a></li>
+              <li class="dropdown"><a href="#"><span>SAFARI</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Gorilla trekking</a></li>
+                  <li><a href="#">Game drives</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>WELLNESS</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Guided walking safaris</a></li>
+                  <li><a href="#">Nature walks</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>CULTURE</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Local culture</a></li>
+                  <li><a href="#">Conservation experience</a></li>
+                </ul>
+              </li>
+              <li><a href="#">PHOTOGRAPHY</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">CONTACT US</a></li>
+          <li class="dropdown"><a href="#"><span>JOURNEYS</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">All journeys</a></li>
+              <li><a href="#">Family journeys</a></li>
+              <li><a href="#">Group journeys</a></li>
+              <li><a href="#">Solo journeys</a></li>
+              <li><a href="#">Couples journeys</a></li>
+              <li><a href="#">Our services</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto " href="#faq">FAQ</a></li>
+          <li><a class="nav-link scrollto" href="#services">JOURNAY</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -608,7 +607,7 @@
           </div>
         </div> -->
       </div>
-      <p class="fs-xl mb-5" style="color: #a4d3b5;">Experience the Adventure of a Lifetime in the Heart of Africa</p><a class="scroll-down-btn" href="#experiences" data-scroll="" data-scroll-offset="20">
+      <p class="fs-xl mb-5" style="color: #a4d3b5;">Experience the Adventure of a Lifetime in the Heart of Africa</p><a class="scroll-down-btn" href="home.html" data-scroll="" data-scroll-offset="20">
         <div class="mouse mb-3"></div>
         <p class="text-white">Book Your Rwanda Adventure Now!</p></a>
     </div>
@@ -617,7 +616,7 @@
   <main id="main">
     <!-- ======= Offer Section ======= -->
     <section id="locate" class="offer" style="background-color: #467758; color: white;padding: 0px;">
-      <div class="container" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+      <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-12 pt-3 content-align-center themed-grid-col">
             <h1><i class="bi bi-house-door"></i></h1><p style="display: block;margin-block-start: -56px;margin-block-end: unset;margin-inline-start: 54px;">Locate us in: <br>
@@ -625,15 +624,17 @@
           </div>
           <div class="col-lg-4 col-md-6 col-12 pt-3 content-align-center themed-grid-col">
             <h1><i class="bi bi-telephone"></i></h1><p style="display: block;margin-block-start: -56px;margin-block-end: unset;margin-inline-start: 54px;">Get us on: <br>
-              (+250) 781 810 199</p>
+              (+250)788 888 888</p>
           </div>
           <div class="col-lg-4 col-md-12 col-12 pt-3 content-align-center">
             <h1><i class="bi bi-envelope"></i></h1><p style="display: block;margin-block-start: -56px;margin-block-end: unset;margin-inline-start: 54px;">Send us on: <br>
-              africaapessafaris@gmail.com</p>
+              africapesafaris@gmail.com</p>
           </div>
         </div>
       </div>
     </section>
+
+    <div class="b-example-divider"></div>
 
     <section id="offer" class="about" style="padding: 10px;">
       <div class="container pt-4 py-5">
@@ -642,7 +643,7 @@
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
           <div class="col d-flex flex-column align-items-start gap-2">
             <h3 class="fw-bold">WE OFFER REAL ADVENTURE</h3>
-            <h6 class="text-body-secondary">Africa Apes Safaris welcomes you to Rwanda, home of the great apes and the Gateway to East Africa. A land of surprising diverse scenery - from the Community Experience.</h6>
+            <h6 class="text-body-secondary">Africa Apes Safaris welcomes you to Rwanda, home of the safari and the Gateway to East Africa. A land of surprising diverse scenery - from the Volcanoes Cummunty Experience.</h6>
           </div>
     
           <div class="col">
@@ -694,17 +695,8 @@
 
     <section id="experiences" class="experiences" style="padding: 10px;">
         <div class="container pt-4 py-5">
-          <div class="row">
-            <div class="col-9">
-              <h2 class="pb-2 border-bottom text-center" style="color: #467758;">TOURISM PRODUCT WE OFFER</h2> 
-            </div>
-            <div class="col-3">
-              <button class="btn d-inline-flex align-items-center" type="button" style="background-color: #467758;color:white;">
-                Browse more
-                <i class="bi bi-arrow-right"></i>
-              </button>
-            </div>
-          </div>
+          <h2 class="pb-2 border-bottom text-center" style="color: #467758;">UNIQUE VOLCANOES COMMUNITY EXPERIENCE</h2> 
+          <a class="btn btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" style="background-color: #467758;color:white;" href="home.html" rel="noopener">BROWSE MORE</a>
           <div class="row row-cols-1 row-cols-md-3 align-items-md-center g-5 py-5">
             <div class="col">
               <div class="profile-card-4 text-center"><img src="tour-1-cover.jpg" alt="Tour 1" class="card__picture-img" width="300px" height="300px">
@@ -714,6 +706,10 @@
                       <div class="row" style="padding: 0;margin: 0;">
                           <div class="col" style="padding: 0;margin: 0;">
                               <div class="profile-overview">
+                                  <h6>200$/Per Person</h6></div>
+                          </div>
+                          <div class="col" style="padding: 0;margin: 0;">
+                              <div class="profile-overview">
                                   <h6>4 nights</h6></div>
                           </div>
                           <div class="col" style="padding: 0;margin: 0;">
@@ -726,13 +722,17 @@
             </div>
 
             <div class="col">
-              <div class="profile-card-4 text-center"><img src="tour-2-cover.jpg" alt="Tour 2" class="card__picture-img" width="300px" height="300px">
+              <div class="profile-card-4 text-center"><img src="tour-2-cover.jpg" alt="Tour 1" class="card__picture-img" width="300px" height="300px">
                   <div class="profile-content">
                       <div class="profile-name" style="background-color: #467758;">Gorilla Trekking tour
                       </div>
                       <div class="row" style="padding: 0;margin: 0;">
                           <div class="col" style="padding: 0;margin: 0;">
                               <div class="profile-overview">
+                                  <h6>200$/Per Person</h6></div>
+                          </div>
+                          <div class="col" style="padding: 0;margin: 0;">
+                              <div class="profile-overview">
                                   <h6>4 nights</h6></div>
                           </div>
                           <div class="col" style="padding: 0;margin: 0;">
@@ -745,11 +745,15 @@
             </div>
 
             <div class="col">
-              <div class="profile-card-4 text-center"><img src="culture-in-rwanda.jpg" alt="Tour 3" class="card__picture-img" width="300px" height="300px">
+              <div class="profile-card-4 text-center"><img src="tour-3-cover.jpg" alt="Tour 1" class="card__picture-img" width="300px" height="300px">
                   <div class="profile-content">
-                      <div class="profile-name" style="background-color: #467758;">Local Culture Tour
+                      <div class="profile-name" style="background-color: #467758;">Hiking And Campsite tour
                       </div>
                       <div class="row" style="padding: 0;margin: 0;">
+                          <div class="col" style="padding: 0;margin: 0;">
+                              <div class="profile-overview">
+                                  <h6>200$/Per Person</h6></div>
+                          </div>
                           <div class="col" style="padding: 0;margin: 0;">
                               <div class="profile-overview">
                                   <h6>4 nights</h6></div>
@@ -773,7 +777,7 @@
             <div class><h1 style="color: #467758;">DESIGN YOUR OWN TRIP</h1>
             <hr style="transform: none;"><br>
             <h6 style="font-style: italic;font-family: Verdana, Geneva, Tahoma, sans-serif;">We've Spent More Than 11 Years Helping Travellers To Plan Their Next Adventures</h6><br>
-            <h6>Africa Apes Safaris welcomes you to Rwanda, home of the safari and the Gateway to East Africa. Contact us, we’ll create custom tours and Tours packages & help you plan your dream safari.</h6>
+            <h6>Africa Apes Safaris welcomes you to Kenya, home of the safari and the Gateway to East Africa. Contact us, we’ll create custom tours and Tours packages & help you plan your dream safari.</h6>
           </div>
           </div>
           <div class="col-lg-4">
@@ -784,14 +788,14 @@
                     <div class="front card-block">
                       <table class="p-2">
                         <tr><h4 class="card-title p-2">Chat To An Expert</h4></tr>
-                        <tr><h6 class="card-subtitle p-2" style="background-color: rgba(0, 0, 0, .1);color: rgba(37, 31, 31, 0.8);">Click here to get advice and recommendation from our Safari Expert</h6></tr>
+                        <tr><h6 class="card-subtitle p-2" style="background-color: rgba(0, 0, 0, .1);color: rgba(37, 31, 31, 0.8);">Get Advice And Recommendation From Our Safari Expert</h6></tr>
                         <tr><h6 class="card-text p-2"><label class="border p-2">Enguire Now</label></h6></tr>
                       </table>
                     </div>
                     <div class="back card-block" style="position: absolute;">
                       <a href="#"><table class="p-2">
                         <tr><h4 class="card-title p-2">Chat To An Expert</h4></tr>
-                        <tr><h6 class="card-subtitle p-2" style="background-color: #467758;color: white;">Click here to get advice and recommendation from our Safari Expert</h6></tr>
+                        <tr><h6 class="card-subtitle p-2" style="background-color: #467758;color: white;">Get Advice And Recommendation From Our Safari Expert</h6></tr>
                         <tr><h6 class="card-text p-2 btn btn-outline-successes">Enguire Now</h6></tr>
                       </table></a>
                     </div>
@@ -806,26 +810,16 @@
 
     <section id="tours" class="tours" style="padding: 10px;">
       <div class="container pt-4 py-5 text-center contenedor">
-        <div class="row">
-          <div class="col-9">
-            <h2 class="pb-2 border-bottom text-center" style="color: #467758;">UNIQUE ADVENTURE TOUR PACKAGES</h2>
-          </div>
-          <div class="col-3">
-            <button class="btn d-inline-flex align-items-center" type="button" style="background-color: #467758;color:white;">
-              Browse more
-              <i class="bi bi-arrow-right"></i>
-            </button>
-          </div>
-        </div> 
+        <h2 class="pb-2 border-bottom text-center" style="color: #467758;">UNIQUE ADVENTURE TOUR PACKAGES</h2> 
         <div class="row row-cols-1 row-cols-md-3 align-items-md-center g-5 py-5">
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 pb-3 text-white text-shadow-1 container_foto">
-                <img src="kcc.jpg" alt="" width="300px" height="300px">
+                <img src="unsplash-photo-1.jpg" alt="" width="300px" height="300px">
                 <article class="text-left lh-1 fw-bold" style="position: absolute;bottom:0px;">
-                  <h5>KIGALI CITY <br>WALK</h5>
+                  <h5>HIKING KARISIMBI <br>VOLCANO</h5>
                   <hr style="transform: none;">
-                  <h6>The Kigali Genocide Memorial, Campaign against Genocide Museum</h6>
+                  <h6>Hiking sticks, food, drinks and hiking gears</h6>
                </article>
                <div class="ver_mas text-center">
                 <a href="">READ MORE >></a>
@@ -837,9 +831,9 @@
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 pb-3 text-white text-shadow-1 container_foto">
-                <img src="hiking.jpg" alt="" width="300px" height="300px">
+                <img src="unsplash-photo-2.jpg" alt="" width="300px" height="300px">
                 <article class="text-left lh-1 fw-bold" style="position: absolute;bottom:0px;">
-                  <h5>HIKING <br>TOUR</h5>
+                  <h5>HIKING AND <br>CAMPSITE TOUR</h5>
                   <hr style="transform: none;">
                   <h6>Hiking sticks, food, drinks and camping option</h6>
                </article>
@@ -853,11 +847,11 @@
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 pb-3 text-white text-shadow-1 container_foto">
-                <img src="kingspalace.jpg" alt="" width="300px" height="300px">
+                <img src="unsplash-photo-3.jpg" alt="" width="300px" height="300px">
                 <article class="text-left lh-1 fw-bold" style="position: absolute;bottom:0px;">
-                  <h5>KINGS PALACE <br>MUSEUM</h5>
+                  <h5>GISENYI (RUBAVU) <br>EXPERIENCE</h5>
                   <hr style="transform: none;">
-                  <h6>Historic Sites, Points of Interest & Landmarks</h6>
+                  <h6>Mount Muhungwe Hike, Mount Rubavu Hike</h6>
                </article>
                <div class="ver_mas text-center">
                 <a href="">READ MORE >></a>
@@ -870,19 +864,451 @@
       </div>
   </section>
 
-  <div class="b-example-divider"></div>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>About</h2>
+          <h3>Learn More <span>About Us</span></h3>
+          <p>At Africa Apes Safaris, we offer authentic African safari experiences led by our experienced team of tour guides and conservationists.</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h2>Our Tours</h2>
+            <p>
+              We offer a range of tours that cater to different interests and preferences. From gorilla trekking adventures to cultural immersions, our tours are carefully designed to showcase the best of Africa. We believe in providing our clients with personalized attention and exceptional service to ensure that their safari experience is unforgettable.
+            </p>
+            <!-- <ul>
+              <li><i class="ri-check-double-line"></i> </li>
+              <li><i class="ri-check-double-line"></i> </li>
+              <li><i class="ri-check-double-line"></i> </li>
+            </ul> -->
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h2>Our Team</h2>
+            <p>
+              We are a team of passionate and experienced tour guides, conservationists, and travel experts who are dedicated to providing you with the best possible experience. Our team is made up of locals who have deep roots in the African community and who are passionate about sharing the wonders of Africa with the world.
+            </p>
+            <a href="about.html" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <h3>We do offer awesome <span>Services</span></h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-6 col-6">
+            <div class="icon-box">
+              <i class="ri-store-line" style="color: #ffbb2c;"></i>
+              <h3><a href="">Lorem Ipsum</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="icon-box">
+              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+              <h3><a href="">Dolor Sitema</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+              <h3><a href="">Sed perspiciatis</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+              <h3><a href="">Magni Dolores</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="ri-database-2-line" style="color: #47aeff;"></i>
+              <h3><a href="">Nemo Enim</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+              <h3><a href="">Eiusmod Tempor</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+              <h3><a href="">Midela Teren</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+              <h3><a href="">Pira Neve</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="ri-anchor-line" style="color: #b2904f;"></i>
+              <h3><a href="">Dirada Pack</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="ri-disc-line" style="color: #b20969;"></i>
+              <h3><a href="">Moton Ideal</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="ri-base-station-line" style="color: #ff5828;"></i>
+              <h3><a href="">Verdo Park</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mt-4">
+            <div class="icon-box">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="">Flavor Nivelanda</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="text-center">
+          <h3>Call To Action</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="cta-btn" href="#">Call To Action</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <h3>Check our <span>Portfolio</span></h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <h3>Our Competing <span>Prices</span></h3>
+          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box recommended">
+              <span class="recommended-badge">Recommended</span>
+              <h3>Business</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+
+        <div class="section-title">
+          <h2>F.A.Q</h2>
+          <h3>Frequently Asked <span>Questions</span></h3>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What currency is used in Rwanda? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Rwandan Franc (RWF)
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">What time zone is Rwanda in? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Rwanda shares the same time zone as the rest of Southern Africa, which is two hours ahead of Greenwich Mean Time (GMT) +2 hours, in the Central Africa Time Zone (CAT)
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Can I use my credit cards in Rwanda? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Yes, MasterCard and Visa are usually accepted throughout Rwanda, including Wilderness destinations. Unfortunately we are unable to accept American Express and Diners Club cards at our Wilderness properties.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">What do I pack for a safari in Rwanda? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                There may be luggage weight or size restrictions on your journey – so please check the details with your Travel Designer. While Rwanda has no strict dress code, women travellers are advised to dress conservatively. Warm clothing is recommended for the cooler months, and light clothing for summer. Bright colours and white are not advisable on safari.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What to see in Rwanda? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Rwanda is a land of staggering beauty with extraordinary biodiversity, iconic wildlife, volcanoes, montane rainforest and sweeping plains. Discover our areas by boat or 4x4 vehicle in Akagera National Park. Gorilla trekking is a must-do, as well as golden monkey trekking in Volcanoes National Park. Besides the rich wildlife, you can also explore Kigali, the bustling capital city, alive with tradition and culture. The country has many other exceptional national parks, natural forests and volcanic lakes, including Lake Kivu, one of Africa's Great Lakes. 
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Why should I visit Rwanda? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Rwanda is famous for its mountain gorillas, birdwatching, classic East African safari encounters, cultural experiences, hiking, and our award-winning luxury camps. All set in exclusive, breath-taking regions of Rwanda, ideal for discovering the country’s iconic wildlife.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team" style="padding: 10px;">
-      <div class="container pt-4 py-5" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-        <div class="row">
-          <div class="col-4" class="pb-2 border-right" style="border-right: 2px solid #467758;"><h3 style="color: #467758;text-align: end;">OUR TOUR <br>GUIDING TEAM</h3></div>
-          <div class="col-8" class="pb-2 text-center"><h5> We are a top tier destination management company , we offer custom tailored<br> different tourism products in East Africa</h5></div>
-        </div>
-        <hr style="transform: none;">
+    <section id="team" class="team">
+      <div class="container" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
 
-        <div class="row g-5 py-5">
+        <div class="section-title">
+          <h2>Team</h2>
+          <h3>Our Tour Guiding <span>Team</span></h3><br>
+          <h6>We are a top tier destination management company , we offer custom tailored<br> Primate and Safaris Tours in East Africa</h6>
+        </div>
+
+        <div class="row">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
@@ -915,7 +1341,7 @@
               </div>
               <div class="member-info">
                 <h4>Pacifique</h4>
-                <span>Tour Guide</span>
+                <span>Product Manager</span>
               </div>
             </div>
           </div>
@@ -933,7 +1359,7 @@
               </div>
               <div class="member-info">
                 <h4>Clement</h4>
-                <span>Tour Guide</span>
+                <span>CTO</span>
               </div>
             </div>
           </div>
@@ -951,7 +1377,7 @@
               </div>
               <div class="member-info">
                 <h4>Clement</h4>
-                <span>Chief Operating Officer</span>
+                <span>Accountant</span>
               </div>
             </div>
           </div>
@@ -961,16 +1387,15 @@
       </div>
     </section><!-- End Team Section -->
 
-    <div class="b-example-divider"></div>
-
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact" style="padding: 10px;">
-      <div class="container pt-4 py-5" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-        <div class="row">
-          <div class="col-4" class="pb-2 border-right" style="border-right: 2px solid #467758;"><h3 style="color: #467758;text-align: end;">REACH <br>OUT TO US</h3></div>
-          <div class="col-8" class="pb-2 text-center"><h5> Please do not hesitate to contact us if you have any questions<br> regarding the services that we offer.</h5></div>
+    <section id="contact" class="contact">
+      <div class="container" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h3>Contact <span>Us</span></h3><br>
+          <h6>Please do not hesitate to contact us if you have any questions<br> regarding the services that we offer.</h6>
         </div>
-        <hr style="transform: none;">
 
         <div>
           <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.072342573551!2d28.902814974000822!3d-2.4830053381030885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c297d753d0c56b%3A0x509b41e66b82e832!2sMethodist%20United%20Church!5e0!3m2!1sen!2sus!4v1681919605698!5m2!1sen!2sus" frameborder="0" allowfullscreen></iframe>
@@ -1046,7 +1471,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12 footer-contact">
             <h3>Africa Apes Safaris</h3>
             <p>
-              Africa Apes Safaris is a tourism company based in Rwanda (The country of thousand hills). It operates in the whole country but it has head office in Rusizi District located in the Western Province/Rwanda.
+              Africa Apes Safaris is a tourism company based in vicinity of Volcanoes National Park (VNP). It operates in the whole country but it has head office in Rusizi District located in the Western Province/Rwanda.
             </p>
           </div>
 
@@ -1066,9 +1491,9 @@
               Working hours <br>
               <strong>24/7</strong> <br>
               Contact Reservations  <br>
-              <strong>(+250) 781 810 199</strong>   <br> 
+              <strong>(+250) 788 888 888</strong>   <br>
               Email for Us   <br>
-              <strong>africaapessafaris@gmail.com</strong> <br>
+              <strong>africapesafaris@gmail.com</strong> <br>
             </p>
           </div>
 
@@ -1088,9 +1513,10 @@
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100063592643186" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/africa_apes_safaris/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/africa-apes-safaris-674a3626a/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </footer><!-- End Footer -->
